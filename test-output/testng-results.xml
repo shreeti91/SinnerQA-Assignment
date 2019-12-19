@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29365" started-at="2019-12-19T22:56:58Z" finished-at="2019-12-19T22:57:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29365" started-at="2019-12-19T22:56:58Z" finished-at="2019-12-19T22:57:27Z">
+      <class name="sinnerSchrader.AppTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:sinnerSchrader.AppTest@402f32ff]" name="SetUp" is-config="true" duration-ms="7013" started-at="2019-12-19T23:56:58Z" finished-at="2019-12-19T23:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testScenario1(java.lang.String)[pri:0, instance:sinnerSchrader.AppTest@402f32ff]" name="testScenario1" duration-ms="16753" started-at="2019-12-19T23:57:05Z" data-provider="Scenario 1 TestData" finished-at="2019-12-19T23:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/broken_images]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method status="PASS" signature="testScenario2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sinnerSchrader.AppTest@402f32ff]" name="testScenario2" duration-ms="1821" started-at="2019-12-19T23:57:22Z" data-provider="Scenario 2 TestData" finished-at="2019-12-19T23:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://the-internet.herokuapp.com/basic_auth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method status="PASS" signature="testScenario3(java.lang.String)[pri:0, instance:sinnerSchrader.AppTest@402f32ff]" name="testScenario3" duration-ms="2936" started-at="2019-12-19T23:57:23Z" data-provider="Scenario 3 TestData" finished-at="2019-12-19T23:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/horizontal_slider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method status="PASS" signature="testScenario4(java.lang.String)[pri:0, instance:sinnerSchrader.AppTest@402f32ff]" name="testScenario4" duration-ms="686" started-at="2019-12-19T23:57:26Z" data-provider="Scenario 4 TestData" finished-at="2019-12-19T23:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/hovers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario4 -->
+      </class> <!-- sinnerSchrader.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

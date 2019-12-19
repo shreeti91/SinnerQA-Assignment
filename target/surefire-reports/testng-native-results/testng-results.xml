@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="6663" started-at="2019-12-15T14:57:43Z" finished-at="2019-12-15T14:57:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6663" started-at="2019-12-15T14:57:43Z" finished-at="2019-12-15T14:57:50Z">
+      <class name="tests.Test_1">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:tests.Test_1@6cd8737]" name="SetUp" is-config="true" duration-ms="4764" started-at="2019-12-15T15:57:43Z" finished-at="2019-12-15T15:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testScenario1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Test_1@6cd8737]" name="testScenario1" duration-ms="1868" started-at="2019-12-15T15:57:48Z" data-provider="Scenario 1 TestData" finished-at="2019-12-15T15:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/basic_auth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+      </class> <!-- tests.Test_1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

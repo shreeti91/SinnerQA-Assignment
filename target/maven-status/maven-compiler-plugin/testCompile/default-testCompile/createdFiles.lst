@@ -1,0 +1,8 @@
+pageObjects\Scenario1_Page.class
+utils\BaseUtils.class
+pageObjects\Scenario4_Page.class
+SinnerSchrader\SinnerSchrader\AppTest.class
+pageObjects\Scenario2_Page.class
+pageObjects\Scenario3_Page.class
+tests\Test_1.class
+utils\Commons.class
